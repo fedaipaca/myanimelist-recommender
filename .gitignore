@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+*.egg-info/
+.eggs/
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+
+# Ignore test outputs
+*.out
+*.err
