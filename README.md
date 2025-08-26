@@ -2,12 +2,6 @@
 
 A collaborative filtering-based anime recommendation system built using Apache Spark's ALS (Alternating Least Squares) algorithm. This project analyzes anime ratings from MyAnimeList dataset to provide personalized recommendations and discovers similar content through matrix factorization techniques.
 
-## Team Members
-
-- **211805076** - Mehmet ÖZCAN
-- **211805036** - Ahmet Muhammed AYDIN  
-- **211805008** - Fedai PAÇA
-
 ## Table of Contents
 
 - [Installation](#installation)
@@ -148,7 +142,7 @@ Original dataset is around 3gb. But after saving them in Parquet format, the siz
 ```
 anime-recommender-spark-main/
 ├── notebooks/
-│   └── 211805076_211805036_211805008.ipynb
+│   └── anime-recommendation-system.ipynb
 ├── data/
 │   ├── users.parquet
 │   ├── animes.parquet
